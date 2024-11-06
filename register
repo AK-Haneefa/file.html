@@ -1,0 +1,24 @@
+<!-- Patient Registration Form -->
+<form id="patient-registration-form">
+  <label>Name:</label>
+  <input type="text" id="patient-name" name="patient-name"><br><br>
+  <label>Email:</label>
+  <input type="email" id="patient-email" name="patient-email"><br><br>
+  <label>Phone:</label>
+  <input type="tel" id="patient-phone" name="patient-phone"><br><br>
+  <button id="register-patient-btn">Register</button>
+</form>
+
+<!-- Appointment Booking Form -->
+<form id="appointment-booking-form">
+  <label>Doctor:</label>
+  <select id="doctor-select" name="doctor-select">
+    <option value="">Select Doctor</option>
+    <!-- Populate doctors from database -->
+  </select><br><br>
+  <label>Date:</label>
+  <input type="date" id="appointment-date" name="appointment-date"><br><br>
+  <label>Time:</label>
+  <input type="time" id="appointment-time" name="appointment-time"><br><br>
+  <button id="book-appointment-btn">Book Appointment</button>
+</form>
